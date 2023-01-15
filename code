@@ -1,0 +1,34 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace jun1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string name;
+            string age;
+            string sign;
+            string job;
+            
+            Console.WriteLine("Здравствуйте! Как вас зовут?");
+            name = Console.ReadLine();
+
+            Console.WriteLine("Отлично! Сколько вам лет?");
+            age = Console.ReadLine();
+
+            Console.WriteLine("Хорошо, идём дальше! какой у вас знак зодиака?");
+            sign = Console.ReadLine();
+
+            Console.WriteLine("И напоследок, где вы работаете?");
+            job = Console.ReadLine();
+
+            Console.WriteLine("И так, мы собрали небольшую базу данных о вас и вот что мы получили:");
+            Console.WriteLine("Вас зовут " + name + ", вам " + age + " лет, ваш знак зодиака " + sign + "и вы работаете " + job + '.');
+        }
+    }
+}
